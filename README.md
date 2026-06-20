@@ -4,26 +4,9 @@ Supplier Portfolio Strategy Lab is a **strategic sourcing strategy lab, not just
 
 The fictional business is **Bayou Specialty Chemicals**, a Houston petrochemical company purchasing specialty valves, MRO pumps, safety PPE, specialty chemicals, packaging materials, and maintenance services. All supplier names and figures are synthetic and portfolio-safe.
 
-## Recruiter quick scan
+## Why this is more than a dashboard
 
-| Area | Evidence in the project |
-|---|---|
-| Category management | Kraljic value/risk segmentation and quadrant-specific strategy routing |
-| Strategic sourcing | Competitive RFQ, supply assurance, partnership, and process-simplification postures |
-| Spend analytics | Category spend, supplier count, incumbent mix, and AVL coverage |
-| Supplier performance | Weighted cost, quality, OTIF, lead time, capacity, risk, and AVL scorecards |
-| TCO analysis | Purchase cost plus disruption, quality, and lead-time penalties |
-| Award allocation | Capacity-feasible 100/0 through 50/50 sourcing scenarios |
-| Negotiation | Weighted Nash bargaining calculator for Strategic categories |
-| Competitive tension | Deterministic RFQ/reverse-auction simulator for Leverage categories |
-| Executive communication | Downloadable rules-based category sourcing memo |
-| Technical delivery | Python, Pandas, Streamlit, Altair, pytest, and local CSV data |
-
-Target roles include Houston supply chain analyst, procurement analyst, strategic sourcing analyst, category analyst, and supplier governance positions in energy, petrochemical, LNG, oilfield services, industrial distribution, and manufacturing.
-
-## What makes this different from a dashboard
-
-A dashboard describes supplier performance. This lab uses performance data to choose and explain a sourcing strategy.
+A supplier dashboard describes what happened. This lab supports a **category management decision**: it uses Kraljic segmentation to route each category to the appropriate **strategic sourcing** posture, then connects **supplier scorecards**, **AVL/vendor governance**, modeled TCO penalties, and game-theory-inspired logic to a capacity-feasible **award allocation** recommendation.
 
 ```text
 Synthetic supplier portfolio
@@ -40,13 +23,65 @@ Kraljic quadrant = strategy router
           +-- Strategic    -> repeated partnership / Nash bargaining
           |
           v
-Supplier scorecards + AVL eligibility + risk-adjusted allocation
+Supplier scorecards + AVL eligibility + risk-adjusted TCO
           |
           v
-Category-manager recommendation and executive memo
+Award allocation + category-manager actions + executive memo
 ```
 
-The result is a recommendation about **which sourcing game to play**, not merely a ranked supplier table.
+The output is a defensible recommendation about **which sourcing game to play, which suppliers to govern, and how to allocate the award**—not merely a ranked supplier table.
+
+## Recruiter quick scan — the 30-second story
+
+> A Houston-focused procurement portfolio project that turns supplier data into a strategic sourcing recommendation: select the category strategy, evaluate supplier performance and governance, compare risk-adjusted award scenarios, and communicate the decision.
+
+| What a hiring manager wants to see | Evidence in this project |
+|---|---|
+| Category strategy | Kraljic segmentation routes each category to a category management posture |
+| Commercial decision-making | Competitive RFQ logic for Leverage categories and Nash bargaining for Strategic categories |
+| Supplier performance and controls | Weighted supplier scorecards plus supplier governance and AVL/vendor governance checks |
+| Total-cost thinking | Risk-adjusted TCO combines purchase cost, disruption loss, quality penalties, and lead-time exposure |
+| Resilient sourcing | Capacity-feasible dual-sourcing scenarios compare 100/0 through 50/50 award allocation |
+| Executive communication | Downloadable sourcing memo connects the analysis to three category-manager actions |
+| Technical delivery | Python, Pandas, Streamlit, Altair, pytest, and local synthetic CSV data |
+
+Target roles include Houston supply chain analyst, procurement analyst, strategic sourcing analyst, category analyst, and supplier governance positions in energy, petrochemical, LNG, oilfield services, industrial distribution, and manufacturing.
+
+## Product screenshots
+
+> **Screenshot placeholders:** The files below are intentionally referenced for the GitHub portfolio layout but are not generated automatically. Capture them manually using the instructions in [docs/screenshots/README.md](docs/screenshots/README.md), then save each image under the exact filename shown.
+
+### Executive overview
+
+![Supplier Portfolio Strategy Lab executive overview](docs/screenshots/01_executive_overview.png)
+
+### Kraljic strategy router
+
+![Kraljic category matrix and strategy router](docs/screenshots/02_kraljic_strategy_router.png)
+
+### Game Theory Lens
+
+![Game Theory Lens sourcing recommendation](docs/screenshots/03_game_theory_lens.png)
+
+### Supplier scorecards
+
+![Weighted supplier scorecards and AVL governance](docs/screenshots/04_supplier_scorecards.png)
+
+### Risk-adjusted award allocation
+
+![Risk-adjusted TCO and dual-sourcing award allocation](docs/screenshots/05_award_allocation.png)
+
+### Nash bargaining
+
+![Strategic-category Nash bargaining calculator](docs/screenshots/06_nash_bargaining.png)
+
+### Reverse auction simulator
+
+![Leverage-category competitive RFQ and reverse auction simulator](docs/screenshots/07_reverse_auction_simulator.png)
+
+### Executive memo
+
+![Deterministic executive category sourcing memo](docs/screenshots/08_executive_memo.png)
 
 ## Business case
 
@@ -166,7 +201,9 @@ supplier-portfolio-strategy-lab/
 |   `-- supplier_portfolio.csv
 |-- docs/
 |   |-- demo_script.md
-|   `-- methodology.md
+|   |-- methodology.md
+|   `-- screenshots/
+|       `-- README.md
 |-- src/
 |   |-- allocation.py
 |   |-- kraljic.py
