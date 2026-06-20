@@ -1,0 +1,25 @@
+category_name,supplier_name,annual_spend,unit_cost,capacity,lead_time_days,otif_rate,quality_score,disruption_probability,supplier_risk_score,supplier_notes,incumbent_flag,avl_approved_flag
+Specialty Valves,Lone Star Valve Works,1800000,3950,1500,85,0.86,92,0.26,75,"Incumbent severe-service valve source; recurring expedite activity during Gulf Coast turnarounds.",True,True
+Specialty Valves,GulfFlow Controls,1250000,4300,1400,55,0.96,98,0.08,55,"Strong engineering support and documentation; carries a moderate price premium.",True,True
+Specialty Valves,Delta Severe Service,900000,3850,1300,110,0.79,89,0.34,88,"Lowest approved unit cost; long castings lead time and uneven OTIF create continuity exposure.",False,True
+Specialty Valves,Bayline Controls Imports,350000,3500,1600,140,0.72,86,0.46,95,"Unapproved import option with incomplete material traceability and high logistics risk.",False,False
+MRO Pumps,Bayou Rotating Equipment,1200000,18500,220,35,0.94,96,0.05,25,"Local repair capability and dependable emergency response for Houston-area plants.",True,True
+MRO Pumps,Texas Process Equipment,1000000,17200,250,28,0.97,97,0.04,20,"Best approved price with strong OTIF and warranty performance.",True,True
+MRO Pumps,Gulf Pump Solutions,700000,19800,180,42,0.92,94,0.08,32,"Technically capable secondary source with good API pump expertise.",False,True
+MRO Pumps,Import Industrial Pumps,250000,15800,300,80,0.75,85,0.28,78,"Low quote but not AVL approved; spares compatibility and lead time remain unresolved.",False,False
+Safety PPE,Gulf Safety Supply,400000,6.8,200000,7,0.98,98,0.02,12,"Responsive local distributor with consigned inventory and clean safety documentation.",True,True
+Safety PPE,Houston Industrial PPE,300000,6.2,180000,9,0.95,96,0.03,15,"Competitive catalog source with strong fill rates across standard PPE SKUs.",True,True
+Safety PPE,Lone Star Workwear,220000,5.9,160000,12,0.92,94,0.05,24,"Approved challenger suitable for SKU rationalization and competitive tension.",False,True
+Safety PPE,Offshore Direct Imports,100000,4.8,250000,45,0.80,88,0.18,65,"Not AVL approved; certification evidence and replenishment reliability are incomplete.",False,False
+Specialty Chemicals,BayChem Additives,2000000,12.5,500000,80,0.88,97,0.28,74,"Qualified formulation and strong quality history; feedstock exposure can extend lead time.",True,True
+Specialty Chemicals,Gulf Catalyst & Chemical,1400000,13.2,450000,60,0.95,99,0.16,55,"Highest technical and service performance with a measured unit-price premium.",True,True
+Specialty Chemicals,GlobalChem Imports,1000000,10.8,550000,120,0.76,90,0.42,92,"Lowest approved price; port dependency and batch variability materially increase TCO risk.",False,True
+Specialty Chemicals,Pelican Process Chemicals,500000,11.9,350000,95,0.84,94,0.35,85,"Qualification package is incomplete and raw-material continuity needs validation.",False,False
+Packaging Materials,Houston Packaging Systems,700000,2.4,600000,18,0.96,97,0.03,16,"Reliable incumbent with local converting capacity and responsive schedule changes.",True,True
+Packaging Materials,Gulf Coast Containers,550000,2.2,550000,22,0.94,96,0.04,18,"Approved source with competitive pricing and solid damage-rate performance.",True,True
+Packaging Materials,Texas FlexPack,400000,2.05,500000,28,0.91,93,0.06,26,"Qualified challenger that can support volume leverage after specification alignment.",False,True
+Packaging Materials,Overseas Industrial Pack,180000,1.7,700000,65,0.82,89,0.20,66,"Unapproved low-price option with freight volatility and limited corrective-action history.",False,False
+Maintenance Services,Bayou Turnaround Services,600000,145,12000,85,0.82,93,0.28,72,"Incumbent field-services contractor; labor availability tightens during regional turnarounds.",True,True
+Maintenance Services,Gulf Reliability Maintenance,450000,165,10000,50,0.95,98,0.14,50,"Premium approved partner with strong safety record and planner coverage.",True,True
+Maintenance Services,Specialty Integrity Crew,300000,135,9000,105,0.76,90,0.38,86,"Approved niche capability but constrained certified labor creates schedule risk.",False,True
+Maintenance Services,Unvetted Contract Labor,120000,110,15000,40,0.70,82,0.45,95,"Not AVL approved; insurance, safety training, and craft qualification files are incomplete.",False,False
